@@ -7,10 +7,14 @@ namespace EmployeeWageProblem
     /// </summary>
     class Program
     {
-
+        /// <summary>
+        /// Calculated Part Time Employee & Wage.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
+            PartTimeEmp Wage = new PartTimeEmp();
+            Wage.Calculateparttimewage();
 
         }
     }
