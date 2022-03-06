@@ -7,11 +7,14 @@ namespace EmployeeWageProblem
     /// </summary>
     class Program
     {
-
+        /// <summary>
+        /// Solved.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
-
+            Totalworkinghrs obj = new Totalworkinghrs();
+            obj.Calworkinghrs();
         }
     }
 }
