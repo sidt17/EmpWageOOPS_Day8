@@ -10,7 +10,8 @@ namespace EmployeeWageProblem
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
+            Switchcase obj1 = new Switchcase();
+            obj1.Monthlywage();
 
         }
     }
